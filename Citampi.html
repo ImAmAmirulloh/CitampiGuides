@@ -1,0 +1,58 @@
+<!--
+<?php require_once('Citampis.php');
+require_once('Citampidj.php');
+require_once('Citampij.php'); ?>
+<!DOCTYPE php>
+-->
+<html lang="id"><head><title>Fandom | Citampi Stories</title>
+	<link rel="icon" type="image/x-icon" href="Images/logoCitampi.png">
+	<link rel="stylesheet" href="Citampis.css">
+</head>
+<body>
+<script src="Citampidj.js"></script>
+<!-- <header id="mbar">
+	<svg viewBox="0 0 8 7" id="mHome"><path d="m4,0.3 l3.7,3 h-7.4 m1,0 h5.4 v3.4 h-5.4 z"/></svg>
+	<svg viewBox="0 0 8 7" id="mChar"><circle cx="4" cy="1.3" r="1"></circle><path d="M4,2.3 h1 l-0.3,4.4 l-0.7,-1 l-0.7,1 l-0.3-4.4 z"/><path d="M4,2.3 h-1 l-1,2 l3,-2 l3,2 l-1,-2 z"/>
+	<path id="svgruler" stroke="red" stroke-width="0.01" d="M0,0.3 h8 z M1.0,0 v8 z m1,0 v8 z M7,0 v8 z m-1,0 v8 z M4,0 v8 z M0,2.3 h8 z M0,7 h8 z m0,-0.3 h8 z"/>
+	</svg>
+</header> -->
+<nav>
+<section class="plan icol"><h>Items</h><irow class="planArea"></irow></section>
+<section class="work icol"><h>Pekerjaan</h><irow	class="workArea"></irow></section>
+<section class="usaha icol"><h>Usaha Istri</h><irow	class="usahaArea"></irow></section>
+<section class="loc icol"><h>Lokasi</h><div id="locArea"></div></section>
+<section class="hadiah icol"><h>Hadiah</h><irow	class="hadiahArea"></irow></section>
+<section class="citagram icol"><h>Citagram</h><irow	class="citagramArea"></irow><irow	class="citagramImg"></irow></section>
+<section class="citamper icol"><h>Citampers</h><irow	class="citamperArea"></irow><irow	class="citamperBio"></irow></section>
+<section class="icol"><h>Toko</h><irow id="tokoArea"></irow></section>
+<section class="mancing icol"><h>Mancing <div class="inf"></div></h><irow id="mancingArea"></irow></section>
+<section class="icol"><h>Memasak</h><irow class="craft" id="masakArea"></irow></section>
+<section class="icol"><h>Meja Produksi</h><irow class="craft" id="craftArea"></irow></section>
+<section class="icol"><h>Tungku Pelebur</h><irow class="craft" id="tungkuArea"></irow></section>
+<section class="icol"><h>Media Pembenihan</h><irow class="craft" id="benihArea"></irow></section>
+<section class="icol"><h>Sampah</h><icol id="sampahArea"></icol></section>
+<section class="icol"><h>Mulung</h><irow id="mulungArea"></irow></section>
+<section class="items icol"><h>All Items</h><irow id="itemsArea"></irow></section>
+
+<script src="Citampij.js"></script>
+<script type="text/javascript" charset="utf-8">
+	document.querySelector('body').style.height=document.defaultView.innerHeight;
+	// showPlan();
+	// showWork();
+	// showUsaha();
+	// showLoc();
+	// showHadiah();
+	// showCitagram();
+	// showCitamper();
+	// showToko();
+	showMancing();
+	showCraft(dataMasak,"#masakArea");
+	showCraft(dataProduksi,"#craftArea");
+	showCraft(dataTungku,"#tungkuArea");
+	showCraft(dataPembenihan,"#benihArea");
+	// showSampah();
+	showMulung();
+	// showItems();
+</script>
+</nav>
+</body></html>
